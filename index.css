@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+.nav{
+    display:flex;
+    flex-wrap: nowrap;
+    width:99%;
+    background-color: rgb(139, 30, 108);
+    justify-content: end;
+    align-content: end;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+}
+.nav ul{
+    display:flex;
+    flex-flow: nowrap row;
+    list-style: none;
+    gap: 2%;
+    justify-content: end;
+    align-content:end;
+    margin-right: 2%;
+}
+.nav ul li button{
+    border: none;
+    background-color: rgb(139, 30, 108);
+    color: rgb(240, 194, 227);
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+.nav ul li button:hover{
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+}
+.home_content{
+    display: flex;
+    flex-wrap: nowrap ;
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(240, 194, 227), rgb(234, 140, 207));
+    gap: 5%;
+}
+.content{
+    flex-flow: nowrap column;
+    flex-shrink: 0;
+    max-width: 500px;
+    padding: 20px;
+}
+.content p{
+    margin-top: -5%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+
+.home_pic{
+    margin-left: 10%;
+    margin-top: 4%;
+    height: 80vh;
+    flex-shrink: 0;
+}
+.about_content{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(240, 194, 227), rgb(234, 140, 207));
+    gap:5%;
+    
+}
+.about_pic{
+    margin-left: 5%;
+    margin-top: 7%;
+    height: 60vh;
+    flex-shrink: 0;
+}
+
+.aboutcontent{
+    flex-flow: nowrap column;
+    flex-shrink: 0;
+    max-width: 500px;
+    padding: 20px;
+    margin-left: 10%;
+}
+.aboutcontent p{
+    margin-top: 5%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+.aboutcontent h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+.contact_content{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: nowrap ;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: 100%;
+    background:linear-gradient(to right, rgb(240, 194, 227), rgb(234, 140, 207));
+    flex-shrink: 0;
+}
+.contact-form h2 {
+    color: rgb(99, 23, 77);
+    margin-top: 50%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2em;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(99, 23, 77);
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: rgb(139, 30, 108);
+    color: rgb(240, 194, 227);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10%;
+    width: 110%;
+}
+
+.contact-form button:hover {
+    background-color: #880e4f;
+}
